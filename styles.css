@@ -1,0 +1,21 @@
+.logo {
+    width: 100px;
+}
+.main-header {
+    background-color: rgb(98, 245, 233);
+}
+.navigation {
+    background-color: black;
+    /* text-align: center; */
+}
+.navigation a {
+    color: #fdfdfd;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+}
+body {
+    background-color: rgb(209, 209, 209);
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+}
