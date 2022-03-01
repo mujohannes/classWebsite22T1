@@ -19,3 +19,17 @@ body {
     font-family: 'Source Code Pro', monospace;
     margin: 0;
 }
+
+.banner {
+    background-image: url("graphics/aaron-burden-cEukkv42O40-unsplash.jpg");
+    aspect-ratio: 16/5;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+.banner h1 {
+    font-size: 250%;
+    color: white;
+    text-shadow: black 2px 2px 1px;
+}
