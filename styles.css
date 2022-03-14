@@ -14,6 +14,10 @@
     padding: 12px;
     display: inline-block;
 }
+.navigation a:hover {
+    color: black;
+    background-color: white;
+}
 body {
     background-color: rgb(209, 209, 209);
     font-family: 'Source Code Pro', monospace;
@@ -32,4 +36,26 @@ body {
     font-size: 250%;
     color: white;
     text-shadow: black 2px 2px 1px;
+}
+.social a {
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+    margin: 0 20px;
+}
+.social {
+    text-align: center;
+}
+/* pseudo selector / class */
+.social a:hover {
+    color: yellow;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.card img {
+    max-width: 100%;
 }
