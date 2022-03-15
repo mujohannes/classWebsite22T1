@@ -55,7 +55,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
-    padding-top:30px;
+    /* margin-top:30px; */
+    margin: 30px;
 }
 .card img {
     max-width: 100%;
@@ -63,4 +64,8 @@ body {
 .card-image {
     aspect-ratio: 4/2.5;
     overflow: hidden;
+}
+/* selector for element that has both banner and contact classes */
+.banner.contact {
+    background-image: url("graphics/pavan-trikutam-71CjSSB83Wo-unsplash.jpg");
 }
