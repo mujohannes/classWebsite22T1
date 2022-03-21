@@ -31,9 +31,28 @@
     <h1>Contact Us</h1>
   </div>
   <main class="content">
-    <form id="contact-form">
+    <form id="contact-form" method="get" action="/" role="form">
         <label for="username">Your name</label>
         <input type="text" id="username" name="name" placeholder="Jane Smith">
+        <label for="useremail">Your email address</label>
+        <input type="email" id="useremail" name="email" placeholder="janesmith@example.com">
+        <!-- checkbox -->
+        <input type="checkbox" id="marketing" name="marketing" value="true" checked>
+        <label for="marketing">Yes, I want to receive information about new products</label>
+        <!-- radio buttons -->
+        <input type="radio" name="origin" id="origin1" value="au" checked>
+        <label for="origin1">I am in Australia</label>
+        <input type="radio" name="origin" id="origin2" value="int">
+        <label for="origin2">I am outside Australia</label>
+        <input type="radio" name="origin" id="origin3" value="ant">
+        <label for="origin3">I am in Antarctica</label>
+        <!-- select -->
+        <label for="useroptions">Options</label>
+        <select placeholder="select one" id="useroptions">
+          <option value="1">Option 1</option>
+          <option value="2" selected>Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
     </form>
   </main>
   <footer class="footer">
