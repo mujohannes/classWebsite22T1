@@ -69,3 +69,11 @@ body {
 .banner.contact {
     background-image: url("graphics/pavan-trikutam-71CjSSB83Wo-unsplash.jpg");
 }
+
+.content.contact {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+#contact-form {
+    grid-column-start: 2;
+}

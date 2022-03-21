@@ -30,7 +30,7 @@
   <div class="banner contact">
     <h1>Contact Us</h1>
   </div>
-  <main class="content">
+  <main class="content contact">
     <form id="contact-form" method="get" action="/" role="form">
         <label for="username">Your name</label>
         <input type="text" id="username" name="name" placeholder="Jane Smith">
@@ -48,11 +48,15 @@
         <label for="origin3">I am in Antarctica</label>
         <!-- select -->
         <label for="useroptions">Options</label>
-        <select placeholder="select one" id="useroptions">
+        <select placeholder="select one" id="useroptions" name="options">
           <option value="1">Option 1</option>
           <option value="2" selected>Option 2</option>
           <option value="3">Option 3</option>
         </select>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="5" cols="30"></textarea>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
     </form>
   </main>
   <footer class="footer">
