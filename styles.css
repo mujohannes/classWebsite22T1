@@ -76,4 +76,36 @@ body {
 
 #contact-form {
     grid-column-start: 2;
+    background-color: #ebe9e9;
+    padding: 30px 100px;
+    border-radius: 10px;
 }
+
+/* form styles */
+#contact-form > label {
+    display: block;
+    font-weight: bold;
+}
+
+#contact-form > input, 
+#contact-form > select,
+#contact-form > textarea {
+    min-width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 1px #cccccc;
+}
+#contact-form > input:focus,
+#contact-form > select:focus,
+#contact-form > textarea:focus
+{
+    outline: rgb(0, 124, 87) solid 1px;
+}
+
+.checkbox, .radio {
+    padding: 15px 0;
+}
+

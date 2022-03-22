@@ -36,26 +36,32 @@
         <input type="text" id="username" name="name" placeholder="Jane Smith">
         <label for="useremail">Your email address</label>
         <input type="email" id="useremail" name="email" placeholder="janesmith@example.com">
-        <!-- checkbox -->
-        <input type="checkbox" id="marketing" name="marketing" value="true" checked>
-        <label for="marketing">Yes, I want to receive information about new products</label>
-        <!-- radio buttons -->
-        <input type="radio" name="origin" id="origin1" value="au" checked>
-        <label for="origin1">I am in Australia</label>
-        <input type="radio" name="origin" id="origin2" value="int">
-        <label for="origin2">I am outside Australia</label>
-        <input type="radio" name="origin" id="origin3" value="ant">
-        <label for="origin3">I am in Antarctica</label>
+        <div class="checkbox">
+          <!-- checkbox -->
+          <input type="checkbox" id="marketing" name="marketing" value="true" checked>
+          <label for="marketing">Yes, I want to receive information about new products</label>
+        </div>
+        <div class="radio">
+          <!-- radio buttons -->
+          <input type="radio" name="origin" id="origin1" value="au" checked>
+          <label for="origin1">I am in Australia</label>
+          <input type="radio" name="origin" id="origin2" value="int">
+          <label for="origin2">I am outside Australia</label>
+          <input type="radio" name="origin" id="origin3" value="ant">
+          <label for="origin3">I am in Antarctica</label>
+        </div>
         <!-- select -->
         <label for="useroptions">Options</label>
-        <select placeholder="select one" id="useroptions" name="options">
+        <select id="useroptions" name="options">
           <option value="1">Option 1</option>
           <option value="2" selected>Option 2</option>
           <option value="3">Option 3</option>
         </select>
         <label for="message">Message</label>
-        <textarea name="message" id="message" rows="5" cols="30"></textarea>
-        <button type="reset">Reset</button>
+        <textarea name="message" id="message" rows="5" cols="30" placeholder="your message to us"></textarea>
+        <button type="reset">
+          Reset
+        </button>
         <button type="submit">Submit</button>
     </form>
   </main>
