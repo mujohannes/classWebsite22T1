@@ -1,0 +1,23 @@
+@media screen and ( max-width: 400px ) {
+    .logo {
+        width: 40px;
+        margin: 5px auto;
+        display: block;
+    }
+    .navigation {
+        text-align: center;
+    }
+    .banner {
+        aspect-ratio: 1/1;
+    }
+    .banner h1 {
+        font-size: 150%;;
+    }
+    .content {
+        grid-template-columns: 1fr;
+        margin: 30px 10px;
+    }
+    .card h3{
+        text-align: center;
+    }
+}
